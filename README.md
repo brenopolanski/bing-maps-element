@@ -1,12 +1,12 @@
-# &lt;my-element&gt;
+# &lt;bing-maps&gt;
 
-TODO: Write a project description
+Web Component wrapper for Bing Maps using Polymer
 
-> Maintained by [Your Name](https://github.com/yourname).
+> Maintained by [Breno Polanski](https://github.com/brenopolanski).
 
 ## Demo
 
-> [Check it live](http://webcomponents.github.io/element-boilerplate).
+> [Check it live](https://github.com/msp-brasil/bing-maps).
 
 ## Usage
 
@@ -19,13 +19,13 @@ TODO: Write a project description
 2. Import Custom Element:
 
     ```html
-    <link rel="import" href="src/my-element.html">
+    <link rel="import" href="src/bing-maps.html">
     ```
 
 3. Start using it!
 
     ```html
-    <my-element></my-element>
+    <bing-maps></bing-maps>
     ```
 
 ## Setup
@@ -59,18 +59,24 @@ Attribute  | Options                   | Default             | Description
 `bar`      | `abc`, `def`, `ghi`       | `foo`               | Lorem ipsum
 `height`   | *int*                     | `100`               | Lorem ipsum
 
+## Browser Support
+
+![IE](https://raw.github.com/alrra/browser-logos/master/internet-explorer/internet-explorer_48x48.png) | ![Chrome](https://raw.github.com/alrra/browser-logos/master/chrome/chrome_48x48.png) | ![Firefox](https://raw.github.com/alrra/browser-logos/master/firefox/firefox_48x48.png) | ![Opera](https://raw.github.com/alrra/browser-logos/master/opera/opera_48x48.png) | ![Safari](https://raw.github.com/alrra/browser-logos/master/safari/safari_48x48.png)
+--- | --- | --- | --- | --- |
+IE 10+ ✔ | Latest ✔ | Latest ✔ | Latest ✔ | Latest ✔ |
+
 ## Contributing
 
 1. Fork it!
 2. Create your feature branch: `git checkout -b my-new-feature`
 3. Commit your changes: `git commit -m 'Add some feature'`
 4. Push to the branch: `git push origin my-new-feature`
-5. Submit a pull request :D
+5. Submit a pull request :)
 
 ## History
 
-For detailed changelog, check [Releases](https://github.com/webcomponents/element-boilerplate/releases).
+For detailed changelog, check [Releases](https://github.com/msp-brasil/bing-maps/releases).
 
 ## License
 
-[MIT License](http://opensource.org/licenses/MIT)
+[MIT License](http://brenopolanski.mit-license.org/) © Breno Polanski
