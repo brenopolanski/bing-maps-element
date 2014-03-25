@@ -1,0 +1,43 @@
+<!-- Import Polymer -->
+<link rel="import" href="../bower_components/polymer/polymer.html">
+
+<!-- Define your custom element -->
+<polymer-element name="bing-maps" attributes="credentials latitude longitude type zoom">
+
+    <template>
+		<style>
+            :host {
+                display: block;
+            }
+
+			#map {
+				position: fixed;
+				width: 500px;
+				height: 500px;
+			}
+		</style>
+
+        <div id="map"></div>
+    </template>
+
+    <script>
+        (function() {
+            Polymer('bing-maps', {
+                credentials: 'Your Bing Maps Key',
+                latitude: 45.5,
+                longitude: -122.5,
+                type: Microsoft.Maps.MapTypeId.road,
+                zoom: 7,
+                ready: function() {
+                	this.map = new Microsoft.Maps.Map(this.$.map, {
+    					credentials: this.credentials,
+    					center: new Microsoft.Maps.Location(this.latitude, this.longitude),
+    					mapTypeId: this.type,
+    					zoom: this.zoom
+                	});
+                }
+            });
+        })();
+    </script>
+
+</polymer-element>

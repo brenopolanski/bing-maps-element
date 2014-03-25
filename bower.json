@@ -1,15 +1,15 @@
 {
-    "name": "element-boilerplate",
-    "version": "0.0.0",
-    "description": "TODO: Write a project description",
+    "name": "bing-maps-element",
+    "version": "0.1.0",
+    "description": "Web Component wrapper for Bing Maps using Polymer",
     "authors": [
-        "TODO: Write your name"
+        "Breno Polanski"
     ],
     "license": "MIT",
-    "main": "src/my-element.html",
+    "main": "src/bing-maps.html",
     "keywords": [
-        "web-component",
-        "web-components"
+        "Bing Maps",
+        "Web Component"
     ],
     "ignore": [
         "**/.*",
