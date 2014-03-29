@@ -1,12 +1,12 @@
 # &lt;bing-maps&gt;
 
-Web Component wrapper for Bing Maps using Polymer
+Web Component wrapper for Bing Maps using Polymer.
 
 > Maintained by [Breno Polanski](https://github.com/brenopolanski).
 
 ## Demo
 
-> [Check it live](https://github.com/msp-brasil/bing-maps).
+> [Check it live](https://github.com/msp-brasil/bing-maps-element).
 
 ## Usage
 
@@ -53,11 +53,13 @@ In order to run it locally you'll need a basic server setup.
 
 ## Options
 
-Attribute  | Options                   | Default             | Description
----        | ---                       | ---                 | ---
-`foo`      | *string*                  | `bar`               | Lorem ipsum
-`bar`      | `abc`, `def`, `ghi`       | `foo`               | Lorem ipsum
-`height`   | *int*                     | `100`               | Lorem ipsum
+Attribute     | Options                   | Default                         | Description
+---           | ---                       | ---                             | ---
+`credentials` | *string*                  | `Your Bing Maps Key`            | Lorem ipsum
+`latitude`    | *int*                     | `45.5`                          | Lorem ipsum
+`longitude`   | *int*                     | `-122.5`                        | Lorem ipsum
+`type`        | *object*                  | `Microsoft.Maps.MapTypeId.road` | Lorem ipsum
+`zoom`        | *int*                     | `7`                             | Lorem ipsum
 
 ## Browser Support
 
@@ -75,7 +77,7 @@ IE 10+ ✔ | Latest ✔ | Latest ✔ | Latest ✔ | Latest ✔ |
 
 ## History
 
-For detailed changelog, check [Releases](https://github.com/msp-brasil/bing-maps/releases).
+For detailed changelog, check [Releases](https://github.com/msp-brasil/bing-maps-element/releases).
 
 ## License
 
