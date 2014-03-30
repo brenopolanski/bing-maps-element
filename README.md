@@ -55,11 +55,13 @@ In order to run it locally you'll need a basic server setup.
 
 Attribute     | Options                   | Default                         | Description
 ---           | ---                       | ---                             | ---
-`credentials` | *string*                  | `Your Bing Maps Key`            | Lorem ipsum
-`latitude`    | *int*                     | `45.5`                          | Lorem ipsum
-`longitude`   | *int*                     | `-122.5`                        | Lorem ipsum
-`type`        | *object*                  | `Microsoft.Maps.MapTypeId.road` | Lorem ipsum
-`zoom`        | *int*                     | `7`                             | Lorem ipsum
+`credentials` | *string*                  | `Your Bing Maps Key`            | Your Bing Maps Key
+`latitude`    | *int*                     | `45.5`                          | The latitude coordinate
+`longitude`   | *int*                     | `-122.5`                        | The longitude coordinate
+`type`        | *object*                  | `Microsoft.Maps.MapTypeId.road` | The map type to construct
+`zoom`        | *int*                     | `7`                             | The zoom level of the map
+
+> See [Bing Maps documentation](http://msdn.microsoft.com/en-us/library/gg427610.aspx).
 
 ## Browser Support
 
