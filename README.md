@@ -6,7 +6,7 @@ Web Component wrapper for Bing Maps using Polymer.
 
 ## Demo
 
-![Bing Maps](https://github.com/msp-brasil/bing-maps-element/blob/gh-pages/bing-maps.png)
+![Bing Maps](https://raw.githubusercontent.com/msp-brasil/bing-maps-element/gh-pages/bing-maps.png)
 
 > [Check it live](http://msp-brasil.github.io/bing-maps-element).
 
