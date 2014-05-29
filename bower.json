@@ -1,23 +1,25 @@
 {
-    "name": "bing-maps-element",
-    "version": "0.1.0",
-    "description": "Web Component wrapper for Bing Maps using Polymer",
-    "authors": [
-        "Breno Polanski"
-    ],
-    "license": "MIT",
-    "main": "src/bing-maps.html",
-    "keywords": [
-        "Bing Maps",
-        "Web Component"
-    ],
-    "ignore": [
-        "**/.*",
-        "node_modules",
-        "bower_components"
-    ],
-    "dependencies": {
-        "platform": "Polymer/platform#~0.2.0",
-        "polymer": "Polymer/polymer#~0.2.0"
-    }
+  "name": "bing-maps-element",
+  "version": "0.1.0",
+  "homepage": "https://github.com/msp-brazil/bing-maps-element",
+  "description": "Web Component wrapper for Bing Maps using Polymer",
+  "main": "src/bing-maps.html",
+  "keywords": [
+    "bing-maps",
+    "web-components"
+  ],
+  "authors": [
+    "Breno Polanski"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "polymer": "~0.2.3"
+  }
 }
