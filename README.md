@@ -6,9 +6,19 @@ Web Component wrapper for Bing Maps using Polymer.
 
 ## Demo
 
-![Bing Maps](https://raw.githubusercontent.com/msp-brasil/bing-maps-element/gh-pages/bing-maps.png)
+![bing-maps](https://raw.githubusercontent.com/msp-brasil/bing-maps-element/gh-pages/bing-maps.png)
 
-> [Check it live](http://msp-brasil.github.io/bing-maps-element).
+[Check it live](http://msp-brasil.github.io/bing-maps-element).
+
+## Install
+
+Install the component using [Bower](http://bower.io/):
+
+```sh
+$ bower install bing-maps-element --save
+```
+
+Or [download as ZIP](https://github.com/msp-brazil/bing-maps-element/archive/master.zip).
 
 ## Usage
 
@@ -21,36 +31,13 @@ Web Component wrapper for Bing Maps using Polymer.
 2. Import Custom Element:
 
     ```html
-    <link rel="import" href="src/bing-maps.html">
+    <link rel="import" href="bower_components/bing-maps-element/src/bing-maps.html">
     ```
 
 3. Start using it!
 
     ```html
     <bing-maps></bing-maps>
-    ```
-
-## Setup
-
-In order to run it locally you'll need a basic server setup.
-
-1. Install [NodeJS](http://nodejs.org/download/).
-2. Install [GruntJS](http://gruntjs.com/):
-
-    ```sh
-    $ [sudo] npm install -g grunt-cli
-    ```
-
-3. Install local dependencies:
-
-    ```sh
-    $ npm install
-    ```
-
-4. Run a local server and open `http://localhost:8000`.
-
-    ```sh
-    $ grunt connect
     ```
 
 ## Options
@@ -64,6 +51,40 @@ Attribute     | Options                   | Default                         | De
 `zoom`        | *int*                     | `7`                             | The zoom level of the map
 
 > See [Bing Maps documentation](http://msdn.microsoft.com/en-us/library/gg427610.aspx).
+
+## Development
+
+In order to run it locally you'll need to fetch some dependencies and a basic server setup.
+
+1. Install [Bower](http://bower.io/) & [Grunt](http://gruntjs.com/):
+
+    ```sh
+    $ [sudo] npm install -g bower grunt-cli
+    ```
+
+2. Install local dependencies:
+
+    ```sh
+    $ bower install && npm install
+    ```
+
+3. To test your project, start the development server and open `http://localhost:8000`.
+
+    ```sh
+    $ grunt server
+    ```
+    
+4. To build the distribution files before releasing a new version.
+
+    ```sh
+    $ grunt build
+    ```
+
+5. To provide a live demo, send everything to `gh-pages` branch.
+
+    ```sh
+    $ grunt deploy
+    ```
 
 ## Browser Support
 
@@ -81,7 +102,7 @@ IE 10+ ✔ | Latest ✔ | Latest ✔ | Latest ✔ | Latest ✔ |
 
 ## History
 
-For detailed changelog, check [Releases](https://github.com/msp-brasil/bing-maps-element/releases).
+For detailed changelog, check [Releases](https://github.com/msp-brazil/bing-maps-element/releases).
 
 ## License
 
