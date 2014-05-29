@@ -5,11 +5,11 @@
     "license": "MIT",
     "repository": {
         "type": "git",
-        "url": "https://github.com/msp-brasil/bing-maps"
+        "url": "https://github.com/msp-brazil/bing-maps"
     },
     "keywords": [
-        "Bing Maps",
-        "Web Component"
+        "bing-maps",
+        "web-components"
     ],
     "author": {
         "name": "Breno Polanski",
@@ -18,11 +18,12 @@
         "twitter": "brenopolanski"
     },
     "bugs": {
-        "url": "https://github.com/msp-brasil/bing-maps/issues"
+        "url": "https://github.com/msp-brazil/bing-maps/issues"
     },
     "devDependencies": {
         "grunt": "~0.4.1",
+        "grunt-cli": "~0.1.9",
         "grunt-contrib-connect": "~0.5.0",
-        "grunt-cli": "~0.1.9"
+        "grunt-gh-pages": "~0.9.1"
     }
 }

@@ -2,14 +2,14 @@
   "name": "bing-maps-element",
   "version": "0.1.0",
   "homepage": "https://github.com/msp-brazil/bing-maps-element",
+  "authors": [
+    "Breno Polanski"
+  ],
   "description": "Web Component wrapper for Bing Maps using Polymer",
   "main": "src/bing-maps.html",
   "keywords": [
     "bing-maps",
     "web-components"
-  ],
-  "authors": [
-    "Breno Polanski"
   ],
   "license": "MIT",
   "ignore": [
