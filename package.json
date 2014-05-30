@@ -1,6 +1,6 @@
 {
     "name": "bing-maps-element",
-    "version": "0.1.0",
+    "version": "0.1.1",
     "description": "Web Component wrapper for Bing Maps using Polymer",
     "license": "MIT",
     "repository": {
